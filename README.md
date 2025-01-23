@@ -7,11 +7,11 @@ We use natural language processing and supervised classification to predict the 
 
 
 **code** folder: contains all the jupyter notebooks used to preprocess the poem dataset, do an initial analysis of the dataset, conduct classification experiments, and analyze the results of the classification. <br>
-&emsp; **experiments** folder: contains code to test the performance of thousands of supervised classification models on the prediction task. <br>
-&emsp; **analysis** folder:
+- **experiments** folder: contains code to test the performance of thousands of supervised classification models on the prediction task. <br>
+- **analysis** folder:
 
 **data/poems** folders: contains the cleaned poems in CSV files: <br>
-&emsp; "poems_split.csv" contains the poems split in 14 line chunks; <br>
-&emsp;  while the "poems_whole.csv" contains the poems in their original length.
+- "poems_split.csv" contains the poems split in 14 line chunks; <br>
+- while the "poems_whole.csv" contains the poems in their original length.
 
 **output** folder: contains the CSV files with information on the best performing models and the **predictions** folder contains the predictions resulting from these models on who might be the author of the unassigned poems.
